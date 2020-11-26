@@ -14,8 +14,7 @@ class Paper{
     display(){
       var pos = this.body.position;
       imageMode(CENTER)
-      
-      image(this.image);
+      image(this.image,200,630,50,50);
   }
 
 }
